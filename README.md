@@ -45,12 +45,15 @@ Le problèmes des "nested routes" est qu'elle ne doivent pas dépasser plus d'un
 Le shallow nesting
 ------------------
 
-    resources :posts do
+```
+resources :posts do
     resources :comments, only: [:index, :new, :create]
-    end
+end
+```
 
-
-    resources :comments, only: [:show, :edit, :update, :destroy]
+```
+resources :comments, only: [:show, :edit, :update, :destroy]
+```
 
 Routes personnalisées
 ---------------------

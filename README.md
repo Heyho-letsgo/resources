@@ -4,7 +4,7 @@ resources
 Le routeur rails est composé en 3 parties.
 ------------------------------------------
 
-* ** resources par défaut**
+* **Resources par défaut**
 * **Non resourceful**
 * **Les routes personnalisées**
 
